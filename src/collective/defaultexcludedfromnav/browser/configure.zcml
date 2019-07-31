@@ -18,4 +18,21 @@
       directory="static"
       />
 
+  <browser:page
+    name="defaultexcludedfromnav_settings"
+    for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+    class=".controlpanel.DefaultExcludedFromNavControlPanel"
+    permission="cmf.ManagePortal"
+    />
+
+  <adapter
+      for="plone.dexterity.interfaces.IDexterityContent"
+      factory=".adapters.default_exclude"
+      />
+
+  <adapter
+      for="Products.CMFPlone.interfaces.siteroot.IPloneSiteRoot"
+      factory=".adapters.default_exclude"
+      />
+
 </configure>
