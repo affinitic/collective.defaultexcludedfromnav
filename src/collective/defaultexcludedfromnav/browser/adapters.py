@@ -14,7 +14,7 @@ def default_exclude(context):
     )
 
     request = getRequest()
-    portal_type = request.steps[-1].replace('++add++', '')
+    portal_type = request.steps[-1].replace("++add++", "")
     if portal_types:
         if portal_type in portal_types:
             return True

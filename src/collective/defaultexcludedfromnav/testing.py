@@ -19,11 +19,12 @@ class CollectiveDefaultexcludedfromnavLayer(PloneSandboxLayer):
         # The z3c.autoinclude feature is disabled in the Plone fixture base
         # layer.
         import plone.restapi
+
         self.loadZCML(package=plone.restapi)
         self.loadZCML(package=collective.defaultexcludedfromnav)
 
     def setUpPloneSite(self, portal):
-        applyProfile(portal, 'collective.defaultexcludedfromnav:default')
+        applyProfile(portal, "collective.defaultexcludedfromnav:default")
 
 
 COLLECTIVE_DEFAULTEXCLUDEDFROMNAV_FIXTURE = CollectiveDefaultexcludedfromnavLayer()
@@ -31,13 +32,13 @@ COLLECTIVE_DEFAULTEXCLUDEDFROMNAV_FIXTURE = CollectiveDefaultexcludedfromnavLaye
 
 COLLECTIVE_DEFAULTEXCLUDEDFROMNAV_INTEGRATION_TESTING = IntegrationTesting(
     bases=(COLLECTIVE_DEFAULTEXCLUDEDFROMNAV_FIXTURE,),
-    name='CollectiveDefaultexcludedfromnavLayer:IntegrationTesting',
+    name="CollectiveDefaultexcludedfromnavLayer:IntegrationTesting",
 )
 
 
 COLLECTIVE_DEFAULTEXCLUDEDFROMNAV_FUNCTIONAL_TESTING = FunctionalTesting(
     bases=(COLLECTIVE_DEFAULTEXCLUDEDFROMNAV_FIXTURE,),
-    name='CollectiveDefaultexcludedfromnavLayer:FunctionalTesting',
+    name="CollectiveDefaultexcludedfromnavLayer:FunctionalTesting",
 )
 
 
@@ -47,5 +48,5 @@ COLLECTIVE_DEFAULTEXCLUDEDFROMNAV_ACCEPTANCE_TESTING = FunctionalTesting(
         REMOTE_LIBRARY_BUNDLE_FIXTURE,
         z2.ZSERVER_FIXTURE,
     ),
-    name='CollectiveDefaultexcludedfromnavLayer:AcceptanceTesting',
+    name="CollectiveDefaultexcludedfromnavLayer:AcceptanceTesting",
 )

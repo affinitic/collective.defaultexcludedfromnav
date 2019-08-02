@@ -11,8 +11,7 @@ class IDefaultExcludedFromNavSettingsSchema(Interface):
     portal_types = schema.List(
         title=_(u"Portal types"),
         value_type=schema.Choice(
-            title=_(u"Portal type"),
-            source="plone.app.vocabularies.PortalTypes",
+            title=_(u"Portal type"), source="plone.app.vocabularies.PortalTypes"
         ),
         required=False,
     )
