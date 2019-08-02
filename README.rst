@@ -1,30 +1,13 @@
-.. This README is meant for consumption by humans and pypi. Pypi can render rst files so please do not use Sphinx features.
-   If you want to learn more about writing documentation, please check out: http://docs.plone.org/about/documentation_styleguide.html
-   This text does not appear on pypi or github. It is a comment.
-
 =================================
 collective.defaultexcludedfromnav
 =================================
 
-Tell me what your product does
+This product allows you to manage the list of portal types that should be excluded from navigation by default
 
 Features
 --------
 
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
+- Add a configlet with a list of portal_type
 
 
 Translations
@@ -32,7 +15,7 @@ Translations
 
 This product has been translated into
 
-- Klingon (thanks, K'Plai)
+- French
 
 
 Installation
@@ -56,17 +39,21 @@ Contribute
 
 - Issue Tracker: https://github.com/collective/collective.defaultexcludedfromnav/issues
 - Source Code: https://github.com/collective/collective.defaultexcludedfromnav
-- Documentation: https://docs.plone.org/foo/bar
-
-
-Support
--------
-
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
 
 
 License
 -------
 
 The project is licensed under the GPLv2.
+
+
+Credits
+-------
+
+This package was developed by `Affinitic team <https://github.com/affinitic>`_.
+
+.. image:: http://www.affinitic.be/affinitic_logo.png
+   :alt: Affinitic website
+   :target: http://www.affinitic.be
+
+``collective.defaultexcludedfromnav`` is licensed under GNU General Public License, version 2.
