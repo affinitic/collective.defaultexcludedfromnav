@@ -16,11 +16,11 @@ msgstr ""
 
 #: ../browser/controlpanel.py:23
 msgid "Configuration for collective.defaultexcludedfromnav product"
-msgstr ""
+msgstr "Configuration pour le produit collective.defaultexcludedfromnav"
 
 #: ../profiles/default/controlpanel.xml
 msgid "DefaultExcludedFromNav Settings"
-msgstr ""
+msgstr "DefaultExcludedFromNav configuration"
 
 #: ../configure.zcml:29
 msgid "Installs the collective.defaultexcludedfromnav add-on."
@@ -28,11 +28,11 @@ msgstr ""
 
 #: ../browser/controlpanel.py:14
 msgid "Portal type"
-msgstr ""
+msgstr "Type de contenu"
 
 #: ../browser/controlpanel.py:12
 msgid "Portal types"
-msgstr ""
+msgstr "Types de contenu"
 
 #: ../configure.zcml:38
 msgid "Uninstalls the collective.defaultexcludedfromnav add-on."
