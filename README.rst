@@ -2,12 +2,12 @@
 collective.defaultexcludedfromnav
 =================================
 
-This product allows you to manage the list of portal types that should be excluded from navigation by default
+This product allows you to manage the list of portal types that should be excluded from navigation by default.
 
 Features
 --------
 
-- Add a configlet with a list of portal_type
+- Adds a configlet in control panel with the list of portal types to exclude
 
 
 Translations
@@ -37,8 +37,8 @@ and then running ``bin/buildout``
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/collective.defaultexcludedfromnav/issues
-- Source Code: https://github.com/collective/collective.defaultexcludedfromnav
+- Issue Tracker: https://github.com/affinitic/collective.defaultexcludedfromnav/issues
+- Source Code: https://github.com/affinitic/collective.defaultexcludedfromnav
 
 
 License
